@@ -352,7 +352,7 @@ header  {
     gap: 1rem;
 }
 .portfolio__project-image {
-    height: 20rem;
+    height: 16rem;
     display: block;
     border: 1rem solid var(--color-white);
     overflow: hidden;
@@ -568,7 +568,7 @@ footer {
     .header__right-bg {
         width: 40rem;
         height: 40rem;
-        right: 30%;
+        right: 25%;
         bottom:30%;
         transform: translate(50%, 50%);
     }
@@ -581,7 +581,7 @@ footer {
     } */
 
     .header__socials a {
-        color: var(--color-primary);
+        color: var(--color-white);
     }
 
     .header__socials {
@@ -620,6 +620,14 @@ footer {
         width: auto;
     }
 
+    .portfolio__project-image{
+        height: 14rem;
+        display: block;
+        border: 1rem solid var(--color-white);
+        overflow: hidden;
+        box-shadow: 0 0 1.6rem var (--color-primary-variant);
+        transition: all 400ms ease;
+    }
    
 
     /* = ============= Contact ======= */
@@ -706,8 +714,14 @@ footer {
         top: -2rem;
     }
 
+   
     .header__right-bg {
         bottom: 55%;
+        width: 40rem;
+        height: 40rem;
+        right: 45%;
+        bottom: 30%;
+        transform: translate(50%, 50%);
     }
 
     .header__socials {
