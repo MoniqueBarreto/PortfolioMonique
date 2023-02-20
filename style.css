@@ -140,7 +140,7 @@ nav {
 
 nav a {
     color: var(--color-black);
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     transition: all 400ms ease;
 }
 
@@ -162,6 +162,7 @@ nav button {
 }
 
 .nav__menu {
+   font-weight: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,8 +230,8 @@ header  {
 }
 
 .header__right-bg {
-    width: 70rem;
-    height: 70rem;
+    width: 65rem;
+    height: 65rem;
     border-radius:50%;
     background: var(--color-primary);
     position: absolute;
