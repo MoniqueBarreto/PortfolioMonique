@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monique Barreto</title>
+
+        <!-- INCONSCOUT CDN -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--GOOGLE FONTS(POPPINS)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway&display=swap" rel="stylesheet">
+
+        <!-- STYLESSHEET CSS-->
+        <link rel ="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container nav__container">
+                <a href="index.html" class="nav__logo">
+                    <h3>MB</h3>
+                </a>
+                <ul class="nav__menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#services">A propos de moi </a></li>
+                    <li><a href="#companies">Compétence technique</a></li>
+                    <li><a href="#portfolio">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="./images/CV_MONIQUE_BARRETO.pdf" class="btn 
+                        btn-primary" download><i class="uil uil-file-download"></i> Download CV </a>
+                    </li> 
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>          
+                
+            </div>
+        </nav>  
+        <!-- END OF MY NAVBAR-->
+
+        <header>
+            <div class="container header__container">
+                <div class="header__left">
+                    <div>  
+                        <h3>Hello ! Je suis</h3>
+                        <h1>Monique<br/>Barreto</h1>
+                        <p>
+                            Développeuse Web 🚀
+                        </p>
+                        <a href="#contact" class = "btn btn-primary btn-lg"> Get in touch</a>
+                    </div>  
+                </div>
+
+                <div class="header__right">
+                    <div class=" header__image">
+                        <!-- <img src="./images/avatar.png"> -->
+                    </div>
+                    <div class="header__right-bg"></div>
+                    <ul class=" header__socials">
+                        <li><a href="https://github.com/MoniqueBarreto" target = "_blank"><i class="uil uil-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/monihquebarreto/" target = "_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--  END OF HEADER-->
+
+         <section id="services">
+            <div class="container services__container ">
+                <div class="services__left">
+                    
+                    <h3> A propos de moi </h3> 
+                    
+                    <h4>
+                       
+                        Développeuse web avec une spécialisation en Data - API. Nouvellement formé en développement web, j'utilise HTML, CSS, JavaScript et NodeJs.  
+                        J'évolue de façon autonome sur d'autres langues et cadres comme Mongo Db. Très appliquée, je tends à produire un code de qualité et maintenable dans le temps. Je mets à votre service et au service de la clientèle mon dynamisme, ma curiosité et ma rapidité à m'adapter.
+
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <!--  END OF SERVICES -->
+
+        <section id="companies"> 
+
+            <h3> Competénce Technique </h3> 
+
+            <div class = "container companies__container" >
+                <span><img src="./images/html.png"></span>
+                <span><img src="./images/css.png"></span>
+                <span><img src="./images/javascript.png"></span>
+                <span><img src="./images/node-js.png"></span>
+                <span><img src="./images/PostgreSQL.png"></span>
+                <span><img src="./images/Mongo-DB.jpg"></span>
+            </div>
+        </section>
+        <!--  END OF COMPANIES -->
+
+        <section id="portfolio">
+            <div class="container portfolio__container">
+                <div class="portfolio__head"> 
+
+                    <h3> Projets</h3>
+                   
+                </div> 
+
+                <div class="portfolio__projects">
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/portfolio.jpg"></span>
+                        <div class="portfolio__cta">
+                            <a href="https://github.com/MoniqueBarreto" class="btn" target="_blank">Github</a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio__project">
+                        <span class="portfolio__project-image"><img src="./images/portfolio.jpg"></span>
+                        <div class="portfolio__cta">
+                            <a href="https://github.com/MoniqueBarreto" class="btn" target="_blank">Github</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===========END OF PORTIFOLIO================-->
+         
+                             
+        <section id = "contact"> 
+            <div class=" container contact__container">
+                <div class="contact__left">
+                    <h2> Let's Talk </h2>
+                    <p>
+                      Contactez-moi pour plus d'informations !
+                    </p>
+                    <ul class="contact__socials">
+                        <li><a href="https://github.com/MoniqueBarreto" target = "_blank"><i class="uil uil-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/monihquebarreto/" target = "_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+                    </ul>
+
+                    <form action = "https://formspree.io/f/mjvdblev" method="POST">
+                        <input type=" text" name ="name" placeholder="Your Name" required>
+                        <input type=" email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6"  placeholder="Message" required></textarea>
+                        <button type="submit" class="btn"> Send <i class="uil uil-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- END CONTACT SECTION -->
+
+        <footer>
+            <small>
+
+                Copyright © MB   Portifolio
+
+            </small>
+        </footer>
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
