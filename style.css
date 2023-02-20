@@ -285,7 +285,6 @@ header  {
 }
 
 .services__container {
-   
     grid-template-columns: 25% auto;
     gap: 2rem;
 
@@ -567,22 +566,32 @@ footer {
         align-self: flex-end;
     }
     .header__right-bg {
-        width: 28rem;
-        height: 28rem;
-        right: 50%;
-        bottom:52%;
+        width: 40rem;
+        height: 40rem;
+        right: 30%;
+        bottom:30%;
         transform: translate(50%, 50%);
     }
     .header__image {
         bottom: -1rem;
         width: 100%;
     }
-    .header__socials {
+    /* .header__socials {
         bottom: 4rem;
-    }
+    } */
 
     .header__socials a {
         color: var(--color-primary);
+    }
+
+    .header__socials {
+        position: absolute;
+        right: 0;
+        bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        font-size: 2.2rem;
     }
 
     /* ========== Companies ============ */ 
@@ -597,9 +606,7 @@ footer {
     .services__card{
         grid-template-columns: 1fr;
     }
-    .services__left{
-        display: none;
-    }
+   
     .services__cards {
         gap: 1rem;
     }
