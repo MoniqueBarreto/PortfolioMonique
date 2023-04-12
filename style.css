@@ -621,7 +621,7 @@ footer {
     }
 
     .portfolio__project-image{
-        height: 14rem;
+        height: 12rem;
         display: block;
         border: 1rem solid var(--color-white);
         overflow: hidden;
